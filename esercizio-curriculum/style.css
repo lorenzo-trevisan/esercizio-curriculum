@@ -1,0 +1,52 @@
+
+            header h2{
+                background-color: aquamarine;
+                margin: 0;
+                padding: 10px 10%;
+            }
+
+            body{
+                font-family: 'Montserrat' , sans-serif;
+                margin: 0;
+                padding: 10px 10%;
+                background-size: contain;
+                background-attachment: fixed;
+                background-image:url(img/1134125.png)
+                
+            }
+            header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            header img{
+                width: 200px;
+            }
+
+            section{
+                background-color: darkblue;
+                margin-bottom: 20px;
+                padding: 25px;
+                border: solid 2px white;
+                border-radius: 15px;
+                color: white;
+                transition: 0,55s;
+            }
+
+            nav a{
+                color: white;
+                margin: 0 8px;
+            }
+
+            section:hover{
+                background-color: lightblue;
+                color: black;
+                border: solid 2px black;
+            }
+            
+
+            
+       
